@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         mFindNewsCategoriesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //do something
+                Toast.makeText(MainActivity.this, "Check News Items!", Toast.LENGTH_LONG).show();
             }
         });
 
