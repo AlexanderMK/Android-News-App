@@ -1,5 +1,6 @@
 package com.newsapp.alex.newsapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -17,9 +18,8 @@ public class MainActivity extends AppCompatActivity {
         mFindNewsCategoriesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Check News Items!", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this, NewsActivity.class);
             }
         });
-
     }
 }
