@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context="com.newsapp.alex.newsapp.MainActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/news"
+        android:scaleType="centerCrop"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
