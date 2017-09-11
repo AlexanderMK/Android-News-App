@@ -33,7 +33,7 @@
         android:layout_above="@+id/findNewsCategoriesButton"
         android:layout_marginBottom="10dp"
         android:padding="5dp"
-        android:hint="Enter Zip Code"
+        android:hint="Enter Country"
         android:layout_centerHorizontal="true" />
 
 
